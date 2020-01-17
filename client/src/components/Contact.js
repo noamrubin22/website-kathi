@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="contact-page">
       <Navbar />
       <div className="contact-info">
-        <h4>Katharina Michalsky</h4>
+        <h4>katharina michalsky</h4>
         <h4>michalskykatharina@gmail.com</h4>
         <h4>instagram</h4>
         <p>
