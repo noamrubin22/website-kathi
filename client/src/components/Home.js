@@ -6,7 +6,7 @@ const Home = props => {
   return (
     <div className="homepage">
       <div className="homepage-info">
-        <h1>katharina michalsky</h1>
+        <h7>katharina michalsky</h7>
         <Navbar />
       </div>
     </div>

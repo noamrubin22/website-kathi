@@ -1,19 +1,16 @@
 import React from "react";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
+
 const Contact = () => {
   return (
     <div className="contact-page">
+      <h7>katharina michalsky</h7>
       <Navbar />
       <div className="contact-info">
-        <h4>katharina michalsky</h4>
-        <h4>michalskykatharina@gmail.com</h4>
-        <h4>instagram</h4>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores
-          autem aperiam nulla animi consequuntur reiciendis amet. Asperiores,
-          quidem! Ab aperiam in sit explicabo maiores recusandae voluptatibus
-          atque nesciunt quae blanditiis!
-        </p>
+        <Link to="mailto:michalskykatharina@gmail.com">
+          <span>michalskykatharina@gmail.com</span>
+        </Link>
       </div>
     </div>
   );

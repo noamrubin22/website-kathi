@@ -2,21 +2,35 @@
   font-family: Helvetica, sans-serif;
 }
 
+.menu {
+  margin-left: 10px;
+}
+
 .menu > a {
   text-decoration: none;
   color: black;
 }
 
+.menu > a:hover {
+  background-color: yellow;
+}
+
 .homepage {
-  display: flex;
-  text-align: center;
-  justify-content: center;
+  /* text-align: center; */
+  /* justify-content: center; */
+  margin: 15px;
+}
+
+h7 {
+  font-size: 50px;
 }
 
 .project-titles {
-  margin: 30px;
-  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
   text-align: left;
+  justify-content: space-around;
   position: absolute;
   left: 50px;
   width: 600px;
@@ -27,21 +41,36 @@
   text-align: left;
   text-decoration: none;
   color: black;
-  font-style: italic;
+  padding: 8px;
+  letter-spacing: 2px;
 }
 
+.project-titles > a > span:hover {
+  background-color: yellow;
+}
 .contact-page {
   display: flex;
   flex-direction: column;
-  margin: 50px 80px 30px 30px;
+  margin: 15px;
 }
 
 .contact-info {
-  margin-top: 50px;
+  margin-top: 66px;
 }
 
-.contact-info > p {
-  width: 50%;
+.contact-info > a {
+  text-decoration: none;
+}
+
+.contact-info > a > span {
+  /* margin-left: 50px; */
+  margin: 50px;
+  color: black;
+  letter-spacing: 2px;
+}
+
+.contact-info > a > span:hover {
+  background-color: yellow;
 }
 
 .series {
