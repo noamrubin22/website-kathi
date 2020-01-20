@@ -9,12 +9,12 @@
 .menu > a {
   text-decoration: none;
   color: black;
+  margin-right: 10px;
+  letter-spacing: 1px;
 }
 
 .menu > a:hover {
-  /* background-color: yellow; */
-  /* letter-spacing: 1px; */
-  color: #202020;
+  font-style: italic;
 }
 
 .homepage {
@@ -48,7 +48,7 @@ h7 {
 }
 
 .project-titles > a > span:hover {
-  background-color: yellow;
+  font-style: italic;
 }
 .contact-page {
   display: flex;
