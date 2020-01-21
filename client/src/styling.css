@@ -9,12 +9,17 @@
 .menu > a {
   text-decoration: none;
   color: black;
-  margin-right: 10px;
+  margin-right: 20px;
+  margin-left: 20px;
   letter-spacing: 1px;
 }
 
 .menu > a:hover {
-  font-style: italic;
+  display: inline-block;
+  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
+  -webkit-transform: skewx(10deg);
+  -o-transform: skewx(10deg);
+  transform: skewx(10deg);
 }
 
 .homepage {
@@ -48,7 +53,11 @@ h7 {
 }
 
 .project-titles > a > span:hover {
-  font-style: italic;
+  display: inline-block;
+  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
+  -webkit-transform: skewx(10deg);
+  -o-transform: skewx(10deg);
+  transform: skewx(10deg);
 }
 .contact-page {
   display: flex;
@@ -72,7 +81,11 @@ h7 {
 }
 
 .contact-info > a > span:hover {
-  background-color: yellow;
+  display: inline-block;
+  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
+  -webkit-transform: skewx(10deg);
+  -o-transform: skewx(10deg);
+  transform: skewx(10deg);
 }
 
 .series1 {
