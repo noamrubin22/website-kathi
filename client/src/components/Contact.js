@@ -5,8 +5,10 @@ import { Link } from "react-router-dom";
 const Contact = props => {
   return (
     <div className="contact-page">
-      <h7>katharina michalsky</h7>
-      <Navbar />
+      <div className="homepage-info">
+        <h7>katharina michalsky</h7>
+        <Navbar />
+      </div>
       <div className="contact-info">
         <Link to="mailto:michalskykatharina@gmail.com">
           <span>michalskykatharina@gmail.com</span>

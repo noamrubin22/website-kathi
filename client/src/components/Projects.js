@@ -7,14 +7,14 @@ const Projects = () => {
       <Navbar />
       <div className="series1">
         <div className="row1">
-          <img src="/3inARow/1.jpg" height="222px" />
-          <img src="/3inARow/2.jpg" height="222px" />
-          <img src="/3inARow/3.jpg" height="222px" />
+          <img src="/3inARow/1.jpg" height="270px" />
+          <img src="/3inARow/2.jpg" height="270px" />
+          <img src="/3inARow/3.jpg" height="280px" />
         </div>
         <div className="row2">
-          <img src="/3inARow/4.jpg" height="222px" />
-          <img src="/3inARow/5.jpg" height="222px" />
-          <img src="/3inARow/6.jpg" height="222px" />
+          <img src="/3inARow/4.jpg" height="280px" />
+          <img src="/3inARow/5.jpg" height="280px" />
+          <img src="/3inARow/6.jpg" height="280px" />
         </div>
       </div>
     </div>
