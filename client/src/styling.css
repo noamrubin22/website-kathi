@@ -11,22 +11,6 @@
   margin-left: 0;
 } */
 
-.menu > a {
-  text-decoration: none;
-  color: black;
-  /* margin-right: 20px; */
-  /* margin-left: 20px; */
-  /* letter-spacing: 1px; */
-}
-
-.menu > a:hover {
-  /* display: inline-block;
-  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
-  /* -webkit-transform: skewx(10deg); */
-  /* -o-transform: skewx(10deg); */
-  /* transform: skewx(10deg); */
-}
-
 /* .homepage {
   /* text-align: center; */
 /* justify-content: center; */
@@ -34,43 +18,6 @@
 h7 {
   font-size: 50px;
   margin: 0px;
-}
-
-.homepage-info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.project-titles {
-  margin-top: 32px;
-  display: flex;
-  flex-direction: column;
-  /* margin-top: 120px; */
-  /* text-align: left; */
-  justify-content: space-between;
-  /* position: absolute; */
-  /* left: 50px; */
-  /* width: 600px; */
-  /* height: 120px; */
-}
-
-.project-titles > a {
-  margin: 0px;
-  text-align: left;
-  text-decoration: none;
-  color: black;
-  padding: 2px;
-  letter-spacing: 2px;
-}
-
-.project-titles > a > span:hover {
-  margin: 0px;
-  /* display: inline-block; */
-  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
-  /* -webkit-transform: skewx(10deg); */
-  /* -o-transform: skewx(10deg); */
-  /* transform: skewx(10deg);  */
 }
 
 #project-description {

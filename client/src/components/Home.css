@@ -1,0 +1,68 @@
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.homepage-info {
+  height: 11vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.content {
+  height: 80vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* justify-items: stretch; */
+  margin: 10px;
+}
+.image-preview {
+  width: 55vw;
+}
+
+.image-preview > img {
+  /* padding: 0; */
+  height: 75vh;
+}
+
+.project-titles {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.project-titles > a {
+  margin: 0px;
+  text-align: left;
+  text-decoration: none;
+  padding: 2.5px;
+  letter-spacing: 2px;
+  color: #282828;
+}
+
+.project-titles > a > span {
+  margin: 0px;
+  transition: font-size 0.2s;
+}
+
+.project-titles > a:hover {
+  color: black;
+  font-size: 17px;
+
+  /* margin: -10px; */
+  /* display: inline-block; */
+  /* see https://developer.mozilla.org/en-US/docs/CSS/transform */
+  /* -webkit-transform: skewx(10deg); */
+  /* -o-transform: skewx(10deg); */
+  /* transform: skewx(10deg);  */
+}
+
+.menu > a {
+  text-decoration: none;
+  color: black;
+}
