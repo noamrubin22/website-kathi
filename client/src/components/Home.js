@@ -1,12 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Navbar from "./Navbar";
 import { Link } from "react-router-dom";
-import "../styling.css";
+// import "../styling.css";
 import Style from "./Home.css";
 
 const Home = props => {
   return (
     <div className="homepage">
+          <link
+        href="https://fonts.googleapis.com/css?family=Spartan&display=swap"
+        rel="stylesheet"
+      ></link>
       <div className="homepage-info">
         <h7>katharina michalsky</h7>
         <Navbar />
